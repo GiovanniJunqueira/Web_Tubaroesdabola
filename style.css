@@ -12,33 +12,108 @@ body {
 }
 
 
-.navbar{
+.navigation{
+
     
 }
-    .navbar a{
+    .navigation a{
         color: white;
         text-decoration: none;
         margin-left: 20px;
         margin-right: 20px;
     }
 
-.navbar a :hover{
-    color: yellow;
-    text-transform: uppercase;
+    .navigation a:hover{
+        color: yellow;
+        text-transform: uppercase;
     }
     
-.container {
-    max-width: 800px;
+.about{
+
+    
+}
+.change{
+    color: yellow;
+    font-weight: bold;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.fut{
+    color: green;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 3px;
+    font-size: 17px;
+}
+
+.first{
+    font-weight: bold;
 }
 
 .fotosescola{
-    margin-top: 20px;
+    
 }
 
     .fotosescola img{
-        margin-top: 15px;
-        width: 95%;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 400px;
+        height: 400px;
+        object-fit: fill;
     }
+
+.buybutton{
+    background-color: #ffee00; 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: 0.3s all;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+}
+    .buybutton:hover{
+        background-color: #00ff08;
+        color: rgb(0, 0, 0);
+        padding: 25px 42px;
+        font-size: 20px;
+    }
+
+
+
+
+.team{
+    background-color:rgba(244, 247, 109, 0.788);
+    font-weight: bold;
+}
+
+.equip{
+    background: hsl(0, 0%, 0%);
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+  }
+    .equip img{
+      margin-top: 10px;
+      height: 200px;
+      flex-shrink: 0;
+      border-radius: 556px;
+    }
+    .equip h4{
+      margin-top: 10px;
+      color: rgb(255, 255, 255);
+    }
+    .equip p{
+        color:rgba(244, 247, 109, 0.788);
+      }
+
 
 footer {
     position: fixed;
